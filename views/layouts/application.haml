@@ -1,0 +1,13 @@
+!!! 5
+%html
+  %head
+    %title Example HAML
+    %link{ :rel => "stylesheet", :href => "/stylesheets/style.css" }
+  %body
+    #container
+      %header
+        %h1 Heading!
+      #main
+        = yield
+      %footer
+        %p Footer
